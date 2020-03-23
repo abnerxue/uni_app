@@ -1,0 +1,101 @@
+
+.background {
+	background: -webkit-linear-gradient(#c50704, #ef1b28, #ef1b28);
+	background: linear-gradient(#c50704, #ef1b28, #ef1b28);
+	height: 100%;
+	width: 100%;
+}
+.back-image {
+	width: 100%;
+	height:460rpx;
+}
+.image-content{
+	width: 100%;
+	margin-top: 30rpx;
+	padding: 20rpx 30rpx 0 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	box-sizing: border-box;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.images{
+	width: 284rpx;
+	height: 287rpx;
+	position: relative;
+	margin-bottom: 30rpx;
+}
+.imagess{
+	width: 100%;
+	height: 100%;
+}
+.qian{
+	font-size: 42rpx;
+	margin-top: 20rpx;
+}
+.momey{
+	position: absolute; 
+	padding-top: 20rpx;
+	width: 100%;
+	height: 50%;
+	top: 0;
+	left: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	color: #DD0812;
+	font-weight: 600;
+	font-size: 74rpx;
+	padding-right: 20rpx;
+	box-sizing: border-box;
+}
+.momeys{
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding-top: 20rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	color: #F2D7A2;
+	font-size: 36rpx;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.quanchan{
+	font-size: 22rpx;
+}
+.ima-btn{
+	width: 400rpx;
+	height: 90rpx;
+	/* background: linear-gradient(#FBE7C4,#F3D087, #FBE7C4); */
+	background: gray;
+	color: #463821;
+	font-size: 44rpx;
+	border-radius: 50rpx;
+	line-height: 90rpx;
+	text-align: center;
+	margin-top:40rpx;
+	margin-bottom: 90rpx;
+}
+

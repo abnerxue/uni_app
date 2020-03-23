@@ -1,0 +1,268 @@
+
+.back {
+	background: #F5F5F5;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.content {
+	width: 100%;
+	background: #F5F5F5;
+}
+.state_time {
+	background: white;
+	height: 90rpx;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.state {
+	color: #1C0000;
+	font-size: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.state image{
+	width: 48rpx;
+	height: 46rpx;
+}
+.time {
+	color: #808080;
+	font-size: 28rpx;
+}
+.refund_content {
+	width: 100%;
+	height: 213rpx;
+	background: white;
+	margin: 20rpx 0;
+	padding: 26rpx 36rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.cexiao{
+	width: 100%;
+	height: 122rpx;
+	background: white;
+	margin: 20rpx 0;
+	padding: 26rpx 36rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.refund_moey{
+	width: 100%;
+	height: 138rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	background: white;
+	margin: 20rpx 0;
+}
+.zfb_moey{
+	width: 100%;
+	height: 69rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	font-size: 26rpx;
+}
+.fuhao{
+	font-size: 20rpx;
+}
+.allmoeys{
+	color: #74181B;
+}
+.zhifubao{
+	color: #808080;
+}
+.all_moey{
+	width: 100%;
+	height: 69rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	border-bottom: 1px  solid #D8D8D8;
+	font-size: 26rpx;
+}
+.refund_contents {
+	color: #1C0000;
+	width: 100%;
+	font-size: 28rpx;
+}
+.refund_btn {
+	width: 100%;
+	text-align: right;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.repeal_btn {
+	border: 1px solid #808080;
+	width: 162rpx;
+	height: 62rpx;
+	box-sizing: border-box;
+	border-radius: 26rpx;
+	font-size: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #808080;
+	margin-right: 20rpx;
+}
+.modify_btn {
+	border: 1px solid #74181B;
+	width: 162rpx;
+	height: 62rpx;
+	box-sizing: border-box;
+	border-radius: 26rpx;
+	font-size: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #74181B;
+}
+.goods-news {
+	height: 605rpx;
+	width: 100%;
+	background: white;
+	box-sizing: border-box;
+	padding: 0 30rpx;
+}
+.news {
+	color: #1C0000;
+	font-size: 28rpx;
+	margin-bottom: 40rpx;
+}
+.goods_news {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 20rpx;
+}
+.goods-images {
+	height: 158rpx;
+	width: 158rpx;
+}
+.goods-title {
+	color: #1C0000;
+	font-size: 30rpx;
+	width: 512rpx;
+	margin-left: 30rpx;
+	height: 40rpx;
+	height: 78rpx;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	word-wrap: break-word;
+	word-break: normal;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.goods-title-image {
+	height: 280rpx;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.refund_news{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 338rpx;
+	width: 100%;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	color: #9A9A9A;
+	font-size: 28rpx;
+	padding: 10rpx 0;
+	box-sizing: border-box;
+}
+.refund_new{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+

@@ -1,0 +1,398 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/classfy/classfy",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/wiki/wiki",
+			"style": {
+				"navigationBarTitleText": "百科",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/cart/cart",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/index/head",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/index/jingjia",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+        }
+        ,{
+            "path" : "pages/index/zhigou",
+            "style" : {
+				"app-plus": {
+					"titleNView": false//禁用原生导航栏
+				},
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+        }
+        ,{
+            "path" : "pages/bottomtabbar/bottomtabbar",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/benefits/benefits",
+            "style" : {
+				"navigationBarTitleText": "会员权益"
+			}
+        }
+        ,{
+            "path" : "pages/paymember/paymember",
+            "style" : {
+				"navigationBarTitleText": "购买会员",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+        }
+        ,{
+            "path" : "pages/paymember/agreement",
+            "style" : {
+				"navigationBarTitleText": "会员服务协议"
+			}
+        }
+        ,{
+            "path" : "pages/index/search",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				 "enablePullDownRefresh": true //开启下拉刷新
+			}
+        }
+        ,{
+            "path" : "pages/active/active_list",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				},
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {
+				"navigationBarTitleText": "分享"
+			}
+        }
+		 ,{
+		    "path" : "pages/share/cashawards",
+		    "style" : {
+				"navigationBarTitleText": "我的现金奖励"
+			}
+		}
+        ,{
+            "path" : "pages/active/active_details",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor":"white"
+			}
+        }
+        ,{
+            "path" : "pages/product/product_details",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/newcomer/newcomer",
+            "style" : {
+				"navigationBarTitleText": "新人专享大礼包"
+			}
+        }
+        ,{
+            "path" : "pages/user/allorders/allorders",
+            "style" : {
+				"navigationBarTitleText": "全部订单",
+				"navigationBarBackgroundColor": "white",
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+        }
+        ,{
+            "path" : "pages/user/shoho/shoho",
+            "style" : {
+				"navigationBarTitleText": "售后",
+				"enablePullDownRefresh": true //开启下拉刷新
+			}
+        }
+        ,{
+            "path" : "pages/index/top_tabbar",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/address/address_list",
+            "style" : {
+				"navigationBarTitleText": "地址管理",
+				"enablePullDownRefresh": true ,//开启下拉刷新
+				"navigationBarBackgroundColor": "white"
+			}
+        }
+		,{
+		    "path" : "pages/kefu/kefu",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}
+        ,{
+            "path" : "pages/user/address/new_address",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/allorders/return",
+            "style" : {
+				"navigationBarTitleText": "申请售后"
+			}
+        }
+        ,{
+            "path" : "pages/user/allorders/order_details",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        },
+        {
+            "path" : "pages/user/allorders/refund_details",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/order/confirm_order",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/order/choose_redPaper",
+            "style" : {
+				"navigationBarBackgroundColor":"white",
+				"navigationBarTitleText": "选择红包"
+			}
+        }
+        ,{
+            "path" : "pages/user/integral/integral",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/balance/balance",
+            "style" : {
+				"navigationBarTitleText": "余额"
+			}
+        }
+        ,{
+            "path" : "pages/user/redPaper/redPaper",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/about/about",
+            "style" : {
+				"navigationBarTitleText": "关于"
+			}
+        }
+        ,{
+            "path" : "pages/user/set_up/set_up",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/classfy/classfy_list",
+            "style" : {
+				"enablePullDownRefresh": true ,//开启下拉刷新
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/benefits/vip_center",
+            "style" : {
+				"navigationBarTitleText": "会员中心",
+				"navigationBarBackgroundColor":"#1C0000",
+				"navigationBarTextStyle":"white"
+			}
+        }
+        ,{
+            "path" : "pages/classfy/classfy",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/user/logistics/logistics",
+            "style" : {
+				"navigationBarTitleText": "查看物流"
+			}
+        },
+		{
+		    "path" : "pages/benefits/vip_interests",
+		    "style" : {
+				"navigationBarTitleText": "会员权益"
+			}
+		}
+        ,{
+            "path" : "pages/user/allorders/comment",
+            "style" : {
+				"navigationBarTitleText": "发表评价"
+			}
+        }
+        ,{
+            "path" : "pages/user/group_list/group_list",
+            "style" : {
+				"navigationBarTitleText": "我的拼团",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/order/pay",
+            "style" : {
+				"navigationBarTitleText": "订单支付"
+			}
+        }
+        // ,{
+        //     "path" : "pages/user/allorders/appraise_success",
+        //     "style" : {}
+        // }
+        ,{
+            "path" : "pages/user/group_list/group_del",
+            "style" : {
+				"navigationBarTitleText": "拼团详情"
+			}
+        }
+        ,{
+            "path" : "pages/wiki/article",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/jingjiadetail/jingjiadetail",
+            "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+        }
+        ,{
+            "path" : "pages/index/jingjiapay",
+            "style" : {
+				"navigationBarTitleText": "支付保证金"
+			}
+        }
+		 ,{
+		    "path" : "pages/index/payoff",
+		    "style" : {
+				"navigationBarTitleText": "支付保证金"
+			}
+		}
+        ,{
+            "path" : "pages/share/guize",
+            "style" : {
+				"navigationBarTitleText": "活动规则"
+			}
+        },
+		{
+		    "path" : "pages/user/set_up/modify_nickname",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+		    "path" : "pages/update/index",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+		    "path" : "pages/guide/guide",
+		    "style" : {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}
+//         ,{
+//             "path" : "pages/privacy/privacy",
+//             "style" : {}
+//         }
+        ,{
+            "path" : "pages/login/bond",
+            "style" : {
+				"navigationBarTitleText": "绑定手机"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"swipers{ width: 100%; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; }\n",],undefined,{path:"./pages/benefits/vip_interests.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/benefits/vip_interests.wxml') } }));

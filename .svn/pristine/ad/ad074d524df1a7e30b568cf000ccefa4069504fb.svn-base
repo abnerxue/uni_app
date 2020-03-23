@@ -1,0 +1,122 @@
+
+.login{
+		width: 100%;
+}
+.backgrounds {
+	background: #fafafa;
+	width: 100%;
+	height: 10rpx;
+}
+.logos {
+	width: 100%;
+	height: 250rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.logo {
+	width: 120rpx;
+	height: 120rpx;
+}
+.inputs{
+	width: 100%;
+	height: 80rpx;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+.inputss{
+	width: 100%;
+	height: 80rpx;
+	border-bottom: 1px solid #E9E9E9;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+.buttons{
+	color: #74181B;
+	font-size: 20rpx;
+	border:1px solid #74181B;
+	width: 160rpx;
+	height: 60rpx;
+	border-radius: 14rpx;
+	line-height: 60rpx;
+	text-align: center;
+}
+.marg{
+	margin-bottom: 40rpx;
+}
+.input{
+	color: #9A9A9A;
+	font-size: 24rpx;
+	height: 70rpx;
+	width: 440rpx;
+	border: none;
+}
+.login-switch{
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	width: 100%;
+	height: 80rpx;
+	margin-bottom: 40rpx;
+}
+.login-switchs{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.wx-login{
+	width: 36rpx;
+	height: 36rpx;
+}
+.moblie-login{
+	font-size: 26rpx;
+}
+.btn{
+	width: 100%;
+	padding: 0  30rpx;
+	box-sizing: border-box;
+}
+.btns{
+	background: #74181B;
+	color: white;
+}
+.protocol{
+	margin-top: 20rpx;
+	font-size: 20rpx;
+	padding: 0 30rpx 0 30rpx;
+	box-sizing: border-box;
+	height: 50rpx;
+	line-height: 50rpx;
+	color: #9A9A9A;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.nameprotocol{
+	color: #74181B;
+}
+

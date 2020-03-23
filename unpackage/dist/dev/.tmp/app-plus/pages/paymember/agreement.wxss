@@ -1,0 +1,29 @@
+
+.agreementcontent{
+		margin: 0 30rpx;
+}
+.agreement-title text{
+		line-height: 70rpx;
+}
+.agreement-time text{
+		line-height: 30rpx;
+}
+.agreement-title,.agreement-time{
+		text-align: center;
+}
+.agreement-title{
+		height: 70rpx;
+		font-size: 32rpx;
+		font-weight: 550;
+}
+.agreement-time{
+		height: 30rpx;
+		font-size: 20rpx;
+}
+.content{
+		margin-top: 20rpx;
+		line-height: 40rpx;
+		font-size: 28rpx;
+		text-align: left;
+}
+

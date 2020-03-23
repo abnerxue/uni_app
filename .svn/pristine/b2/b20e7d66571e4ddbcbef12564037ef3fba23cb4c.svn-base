@@ -1,0 +1,1 @@
+<view><view><swiper class="swipers" autoplay="{{swipers.autoplay}}" interval="false" duration="{{swipers.duration}}" display-multiple-items="{{swipers.items}}"><block wx:for="{{image}}" wx:for-item="images" wx:for-index="__i0__"><swiper-item class="swipers"><image src="{{images.image}}"></image><view>{{images.name}}</view></swiper-item></block></swiper></view></view>

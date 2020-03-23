@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"Privacy{ word-wrap:break-word; word-break:break-all; overflow: hidden; padding: 0 ",[0,40]," 0 ",[0,40],"; }\n.",[1],"tit{ margin: 0 auto; text-align: center; width: ",[0,500],"; }\n",],undefined,{path:"./pages/privacy/privacy.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/privacy/privacy.wxml') } }));

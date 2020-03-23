@@ -1,0 +1,71 @@
+
+.orderid{
+	width: 100%;
+	height: 88rpx;
+	background: white;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 26rpx;
+	color: #1C0000;
+	margin-bottom: 30rpx;
+}
+.order_hao{
+	color: #808080;
+}
+.payment_method{
+	margin-bottom: 10rpx;
+	color: #808080;
+	font-size: 26rpx;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+.payment_method_zfb{
+	width: 100%;
+	height: 110rpx;
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 26rpx;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	margin-bottom: 60rpx;
+}
+.zhifubao{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.zfb{
+	width: 61rpx;
+	height: 61rpx;
+	margin-right: 16rpx;
+}
+.zhifu{
+	background: #DD0812;
+	color: white;
+	font-size: 32rpx;
+	height: 88rpx;
+	width: 702rpx;
+	margin: 0 auto;
+	line-height: 88rpx;
+}
+

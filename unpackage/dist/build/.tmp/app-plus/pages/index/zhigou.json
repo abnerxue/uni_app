@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "titleNView": false,
+  "usingComponents": {
+    "heads": "/pages/index/top_tabbar",
+    "bottomtabbar": "/pages/bottomtabbar/bottomtabbar"
+  }
+}

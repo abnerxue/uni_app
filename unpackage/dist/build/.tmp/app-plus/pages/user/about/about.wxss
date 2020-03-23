@@ -1,0 +1,46 @@
+
+.center_container {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-align-content: center;
+	        align-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.logo_style {
+	height: 150rpx;
+	width: 150rpx;
+	margin-top: 117rpx;
+	border-radius: 30rpx;
+}
+.text_appname {
+	color: rgb(26, 26, 26);
+	font-size: 31rpx;
+	margin-top: 22rpx;
+	margin-bottom: 13rpx;
+}
+.text_grey {
+	color: rgba(26, 26, 26, 0.5);
+	font-size: 28rpx;
+}
+.bottom_con {
+	position: fixed;
+	bottom: 33rpx;
+}
+.text_link {
+	color: #005BBA;
+	font-size: 20.8rpx;
+	margin-right: 20rpx;
+}
+.text_copy {
+	color: rgba(26, 26, 26, 0.5);
+	font-size: 21rpx;
+}
+

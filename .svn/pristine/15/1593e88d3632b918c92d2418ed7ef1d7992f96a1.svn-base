@@ -1,0 +1,43 @@
+
+.bottomtab{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: white;
+	z-index: 55;
+}
+.bottabbar{
+	
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	font-size:24rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	        flex-direction:column;
+}
+.ims{
+	width: 40rpx;
+	height: 40rpx;
+}
+.actives{
+	color:#74181B;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "百科",
+  "titleNView": false,
+  "usingComponents": {
+    "bottomtabbar": "/pages/bottomtabbar/bottomtabbar"
+  }
+}

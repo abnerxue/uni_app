@@ -1,0 +1,1 @@
+<view class="back"><view><view class="baozheng"><view class="baozhengtip"><view class="tiptitle"><image src="../../static/productdetail/payoff%20.png"></image></view><view class="price">保证金支付成功</view><view>返回参与竞拍出价</view></view></view><button data-event-opts="{{[['tap',[['payback']]]]}}" class="zhifu" bindtap="__e">返回</button></view></view>

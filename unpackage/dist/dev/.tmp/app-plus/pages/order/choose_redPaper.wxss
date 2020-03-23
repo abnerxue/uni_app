@@ -1,0 +1,102 @@
+
+.back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #F5F5F5;
+}
+.redpraper{
+	background: #F5F5F5;
+	padding: 20rpx 20rpx 20rpx 20rpx;
+	box-sizing: border-box;
+}
+.redprapers{
+	height: 220rpx;
+	width: 100%;
+	border-radius: 20rpx;
+	background: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-bottom: 20rpx;
+}
+.redpraper-momeys{
+	padding: 20rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 28rpx;
+}
+.momeys{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	color: #9A9A9A;
+}
+.momes{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-right: 40rpx;
+}
+.mom{
+	color: #DD0812;
+	font-size: 50rpx;
+}
+.redpraper-reduction{
+	margin-top: 10rpx;
+}
+.zhuanxiao{
+	color: #1C0000;
+}
+.btns{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+}
+.redprapers-time{
+	height: 80rpx;
+	width: 100%;
+	padding-left: 20rpx;
+	box-sizing: border-box;
+	color: #9A9A9A;
+	font-size: 26rpx;
+	line-height: 82rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-top: 1px solid #F8F8F8;
+}
+

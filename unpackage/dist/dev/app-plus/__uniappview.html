@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"hnh_app_v2","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"titleNView":false,"usingComponents":{"bottomtabbar":"/pages/bottomtabbar/bottomtabbar","toptabbar":"/pages/index/top_tabbar"}}},"pages/classfy/classfy.html":{"window":{"titleNView":false,"usingComponents":{"bottomtabbar":"/pages/bottomtabbar/bottomtabbar"}}},"pages/wiki/wiki.html":{"window":{"navigationBarTitleText":"百科","titleNView":false,"usingComponents":{"bottomtabbar":"/pages/bottomtabbar/bottomtabbar"}}},"pages/cart/cart.html":{"window":{"titleNView":false,"usingComponents":{"bottomtabbar":"/pages/bottomtabbar/bottomtabbar"}}},"pages/user/user.html":{"window":{"titleNView":false,"usingComponents":{"bottomtabbar":"/pages/bottomtabbar/bottomtabbar"}}},"pages/index/head.html":{"window":{"titleNView":false,"usingComponents":{}}},"pages/index/jingjia.html":{"window":{"enablePullDownRefresh":true,"titleNView":false,"usingComponents":{"heads":"/pages/index/top_tabbar","bottomtabbar":"/pages/bottomtabbar/bottomtabbar"}}},"pages/index/zhigou.html":{"window":{"enablePullDownRefresh":true,"titleNView":false,"usingComponents":{"heads":"/pages/index/top_tabbar","bottomtabbar":"/pages/bottomtabbar/bottomtabbar"}}},"pages/bottomtabbar/bottomtabbar.html":{"window":{"usingComponents":{}}},"pages/benefits/benefits.html":{"window":{"navigationBarTitleText":"会员权益","usingComponents":{}}},"pages/paymember/paymember.html":{"window":{"navigationBarTitleText":"购买会员","navigationBarBackgroundColor":"#000000","navigationBarTextStyle":"white","usingComponents":{}}},"pages/paymember/agreement.html":{"window":{"navigationBarTitleText":"会员服务协议","usingComponents":{}}},"pages/index/search.html":{"window":{"enablePullDownRefresh":true,"titleNView":false,"usingComponents":{"uni-countdown":"/components/uni-countdown/uni-countdown"}}},"pages/active/active_list.html":{"window":{"enablePullDownRefresh":true,"titleNView":false,"usingComponents":{}}},"pages/share/share.html":{"window":{"navigationBarTitleText":"分享","usingComponents":{}}},"pages/share/cashawards.html":{"window":{"navigationBarTitleText":"我的现金奖励","usingComponents":{}}},"pages/active/active_details.html":{"window":{"titleNView":false,"usingComponents":{"uni-countdown":"/components/uni-countdown/uni-countdown"}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登录","navigationBarBackgroundColor":"white","usingComponents":{}}},"pages/product/product_details.html":{"window":{"titleNView":false,"usingComponents":{}}},"pages/newcomer/newcomer.html":{"window":{"navigationBarTitleText":"新人专享大礼包","usingComponents":{}}},"pages/user/allorders/allorders.html":{"window":{"navigationBarTitleText":"全部订单","navigationBarBackgroundColor":"white","enablePullDownRefresh":true,"usingComponents":{}}},"pages/user/shoho/shoho.html":{"window":{"navigationBarTitleText":"售后","enablePullDownRefresh":true,"usingComponents":{}}},"pages/index/top_tabbar.html":{"window":{"usingComponents":{}}},"pages/user/address/address_list.html":{"window":{"navigationBarTitleText":"地址管理","enablePullDownRefresh":true,"navigationBarBackgroundColor":"white","usingComponents":{}}},"pages/kefu/kefu.html":{"window":{"titleNView":false,"usingComponents":{}}},"pages/user/address/new_address.html":{"window":{"titleNView":false,"usingComponents":{"mpvue-city-picker":"/components/mpvue-citypicker/mpvueCityPicker"}}},"pages/user/allorders/return.html":{"window":{"navigationBarTitleText":"申请售后","usingComponents":{}}},"pages/user/allorders/order_details.html":{"window":{"titleNView":false,"usingComponents":{"uni-countdown":"/components/uni-countdown/uni-countdown"}}},"pages/user/allorders/refund_details.html":{"window":{"titleNView":false,"usingComponents":{"uni-countdown":"/components/uni-countdown/uni-countdown"}}},"pages/order/confirm_order.html":{"window":{"navigationBarTitleText":"确认订单","usingComponents":{}}},"pages/order/choose_redPaper.html":{"window":{"navigationBarBackgroundColor":"white","navigationBarTitleText":"选择红包","usingComponents":{}}},"pages/user/integral/integral.html":{"window":{"titleNView":false,"usingComponents":{}}},"pages/user/balance/balance.html":{"window":{"navigationBarTitleText":"余额","usingComponents":{}}},"pages/user/redPaper/redPaper.html":{"window":{"titleNView":false,"usingComponents":{}}},"pages/user/about/about.html":{"window":{"navigationBarTitleText":"关于","usingComponents":{}}},"pages/user/set_up/set_up.html":{"window":{"navigationBarTitleText":"设置","usingComponents":{}}},"pages/classfy/classfy_list.html":{"window":{"enablePullDownRefresh":true,"titleNView":false,"usingComponents":{}}},"pages/benefits/vip_center.html":{"window":{"navigationBarTitleText":"会员中心","navigationBarBackgroundColor":"#1C0000","navigationBarTextStyle":"white","usingComponents":{}}},"pages/user/logistics/logistics.html":{"window":{"navigationBarTitleText":"查看物流","usingComponents":{}}},"pages/benefits/vip_interests.html":{"window":{"navigationBarTitleText":"会员权益","usingComponents":{}}},"pages/user/allorders/comment.html":{"window":{"navigationBarTitleText":"发表评价","usingComponents":{"sx-rate":"/components/sx-rate/index"}}},"pages/user/group_list/group_list.html":{"window":{"navigationBarTitleText":"我的拼团","enablePullDownRefresh":true,"usingComponents":{"uni-countdown":"/components/uni-countdown/uni-countdown"}}},"pages/order/pay.html":{"window":{"navigationBarTitleText":"订单支付","usingComponents":{}}},"pages/user/group_list/group_del.html":{"window":{"navigationBarTitleText":"拼团详情","usingComponents":{"uni-countdown":"/components/uni-countdown/uni-countdown"}}},"pages/wiki/article.html":{"window":{"usingComponents":{}}},"pages/jingjiadetail/jingjiadetail.html":{"window":{"titleNView":false,"usingComponents":{"uni-countdown":"/components/uni-countdown/uni-countdown"}}},"pages/index/jingjiapay.html":{"window":{"navigationBarTitleText":"支付保证金","usingComponents":{}}},"pages/index/payoff.html":{"window":{"navigationBarTitleText":"支付保证金","usingComponents":{}}},"pages/share/guize.html":{"window":{"navigationBarTitleText":"活动规则","usingComponents":{}}},"pages/user/set_up/modify_nickname.html":{"window":{"titleNView":false,"usingComponents":{}}},"pages/update/index.html":{"window":{"titleNView":false,"usingComponents":{}}},"pages/guide/guide.html":{"window":{"titleNView":false,"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarBackgroundColor":"#FFFFFF","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/classfy/classfy","pages/wiki/wiki","pages/cart/cart","pages/user/user","pages/index/head","pages/index/jingjia","pages/index/zhigou","pages/bottomtabbar/bottomtabbar","pages/benefits/benefits","pages/paymember/paymember","pages/paymember/agreement","pages/index/search","pages/active/active_list","pages/share/share","pages/share/cashawards","pages/active/active_details","pages/login/login","pages/product/product_details","pages/newcomer/newcomer","pages/user/allorders/allorders","pages/user/shoho/shoho","pages/index/top_tabbar","pages/user/address/address_list","pages/kefu/kefu","pages/user/address/new_address","pages/user/allorders/return","pages/user/allorders/order_details","pages/user/allorders/refund_details","pages/order/confirm_order","pages/order/choose_redPaper","pages/user/integral/integral","pages/user/balance/balance","pages/user/redPaper/redPaper","pages/user/about/about","pages/user/set_up/set_up","pages/classfy/classfy_list","pages/benefits/vip_center","pages/classfy/classfy","pages/user/logistics/logistics","pages/benefits/vip_interests","pages/user/allorders/comment","pages/user/group_list/group_list","pages/order/pay","pages/user/group_list/group_del","pages/wiki/article","pages/jingjiadetail/jingjiadetail","pages/index/jingjiapay","pages/index/payoff","pages/share/guize","pages/user/set_up/modify_nickname","pages/update/index","pages/guide/guide"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.5.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

@@ -1,0 +1,13 @@
+
+.Privacy{
+	word-wrap:break-word;
+	word-break:break-all;
+	overflow: hidden;
+	padding: 0 40rpx 0 40rpx;
+}
+.tit{
+	margin: 0 auto;
+	text-align: center;
+	width: 500rpx;
+}
+

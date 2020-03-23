@@ -1,0 +1,82 @@
+
+.back {
+	height: 100%;
+	width: 100%;
+	background: #F5F5F5;
+	position: absolute;
+}
+.top_column {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 88rpx;
+	background: white;
+}
+.top_columns{
+	position: fixed;
+	width: 100%;
+	height: 88rpx;
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	box-shadow: 0 2px 1px #F5F5F5;
+	padding: 0 20rpx;
+	z-index: 50;
+	box-sizing: border-box;
+}
+.top_column_title{
+	color: #1C0000;
+	font-size: 34rpx;
+}
+.baocun{
+	font-size: 26rpx;
+	color: #808080;
+}
+.new_address {
+	width: 100%;
+}
+.name {
+	width: 100%;
+	color: #1C0000;
+	height: 120rpx;
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding-left: 20rpx;
+	box-sizing: border-box;
+}
+.name-title {
+	font-size: 26rpx;
+	width: 160rpx;
+}
+.input-address {
+	font-size: 26rpx;
+	width: 440rpx;
+	color: #9A9A9A;
+}
+.default {
+	color: #9A9A9A;
+	font-size: 26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin-top: 20rpx;
+}
+

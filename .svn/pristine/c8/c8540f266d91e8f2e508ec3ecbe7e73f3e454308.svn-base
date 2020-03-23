@@ -1,0 +1,80 @@
+
+.back {
+	height: 100%;
+	width: 100%;
+	background: #F5F5F5;
+	position: absolute;
+}
+.balances{
+	width: 100%;
+	height: 330rpx;
+	background: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	padding:30rpx 0;
+	box-sizing: border-box;
+}
+.balances-tile{
+	color:#9A9A9A;
+	font-size: 26rpx;
+}
+.balance_momeys{
+	color: #1C0000;
+	font-size: 74rpx;
+}
+.withdrawals_btn{
+	background: #74181B;
+	color: #FFFFFF;
+	width: 210rpx;
+	height: 64rpx;
+	font-size: 34rpx;
+	border-radius: 16rpx;
+	text-align: center;
+	line-height: 64rpx;
+}
+.balance_list{
+	width: 100%;
+	background: white;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	margin-top: 20rpx;
+}
+.balance_del{
+	width: 100%;
+	border-bottom: 1rpx solid #F8F8F8;
+	height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	color: #1C0000;
+	font-size: 26rpx;
+	line-height: 100rpx;
+}
+.right{
+	font-size: 14rpx !important;
+	color: #9A9A9A;
+}
+

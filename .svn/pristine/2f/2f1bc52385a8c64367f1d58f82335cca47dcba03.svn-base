@@ -1,0 +1,235 @@
+
+.back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #F5F5F5;
+}
+.confirm_order {
+	background: #F5F5F5;
+	color: #1C0000;
+	padding-bottom: 30rpx;
+}
+.address {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	box-sizing: border-box;
+	padding: 30rpx 30rpx;
+	height: 168rpx;
+	width: 100%;
+	background: white;
+	font-size: 28rpx;
+}
+.address_name_phone {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	height: 100%;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.address_name {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.phone {
+	margin-left: 60rpx;
+}
+.address_add {
+	color: #808080;
+}
+.goods {
+	box-sizing: border-box;
+	width: 100%;
+	background: white;
+	margin-top: 20rpx;
+}
+.goods_news {
+	height: 210rpx;
+	width: 100%;
+	padding: 30rpx 0rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-align-content: space-between;
+	        align-content: space-between;
+}
+.goods_image {
+	padding-left: 30rpx;
+	width: 146rpx;
+	height: 146rpx;
+}
+.goods_title_price {
+	width: 488rpx;
+	height: 146rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-left: 20rpx;
+}
+.goods_title {
+	font-size: 28rpx;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	word-wrap: break-word;
+	word-break: normal;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.goods_price {
+	color: #DD0812;
+	font-size: 30rpx;
+}
+.goods_number {
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: flex;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+	color: #808080;
+	font-size: 28rpx;
+}
+.goods-other {
+	padding: 0 30rpx;
+	height: 88rpx;
+	width: 690rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 28rpx;
+	color: #1C0000;
+}
+.beizu {
+	/* padding: 0 30rpx; */
+	padding: 0 30rpx;
+	box-sizing: border-box;
+	height: 158rpx;
+}
+.beizus {
+	border: 1px solid #F5F5F5;
+	width: 100%;
+	border-radius: 8rpx;
+	height: 130rpx;
+	color: #9A9A9A;
+	font-size: 26rpx;
+	padding: 16rpx 20rpx;
+	box-sizing: border-box;
+}
+.freight {
+	padding: 0 30rpx;
+	height: 88rpx;
+	width: 690rpx;
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 28rpx;
+	color: #1C0000;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	background: #F8F8F8;
+}
+.font {
+	font-size: 28rpx;
+	color: #808080;
+}
+.iconrights {
+	font-size: 26rpx;
+}
+.input {
+	text-align: end;
+}
+.total {
+	margin-top: 10rpx;
+	box-sizing: border-box;
+	background: white;
+}
+.momey {
+	color: #DD0812;
+	font-size: 28rpx;
+}
+.zhifu {
+	position: relative;
+	width: 100%;
+	height: 98rpx;
+	background: #F5F5F5;
+}
+.zhifus {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 98rpx;
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	color: #1C0000;
+	font-size: 28rpx;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.zhifu-btn {
+	height: 100%;
+	width: 210rpx;
+	line-height: 106rpx;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 28rpx;
+	background: #DD0812;
+}
+.totalMoneys {
+	color: #DD0812;
+	font-size: 30rpx;
+}
+.zhifu-totalMoneys {
+	margin-right: 20rpx;
+}
+

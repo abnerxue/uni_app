@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"content { border-top: 1px solid #f5f5f5; padding: ",[0,0]," ",[0,30],"; font-size: ",[0,28],"; }\n.",[1],"title { margin-top: ",[0,16],"; font-size: ",[0,30],"; font-weight: 550; line-height: ",[0,60],"; }\n.",[1],"substance { line-height: ",[0,40],"; }\n",],undefined,{path:"./pages/share/guize.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/share/guize.wxml') } }));

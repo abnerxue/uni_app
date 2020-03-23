@@ -1,0 +1,7 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "bottomtabbar": "/pages/bottomtabbar/bottomtabbar",
+    "toptabbar": "/pages/index/top_tabbar"
+  }
+}
